@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: flask_demo
+    name: flask-demo
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python app.py
